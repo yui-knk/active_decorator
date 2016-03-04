@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'active_decorator', path: '..'
 
-gem 'rails', '~> 5.0.0.beta1'
+gem 'rails', git: 'git://github.com/yui-knk/rails.git', branch: "more_lazy_include_am_clear_test_deliveries"
 gem 'test-unit-rails'
 gem 'capybara'
 gem 'sqlite3'
